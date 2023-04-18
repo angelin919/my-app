@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  text-decoration: none;
+  color: wheat;
+}
+
+.dropDownHidden{
+  display: none;
+}
+
+@media (max-width:940px) {
+  .buttonNavHeader{
+    display: none;
+  }
+
+  .dropDownHidden{
+    display: flex;
+  }
+  .navbar-expand .navbar-nav .dropdown-menu {
+    left: -130px;
+}
+  
+}
